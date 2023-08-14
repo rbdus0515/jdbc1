@@ -38,6 +38,8 @@ public class Ex2 {
 			
 			rs = stmt.executeQuery(sql);
 			
+			boolean flag = true;
+			
 			while(rs.next()) {
 				
 				String empId = rs.getString("EMP_ID");
@@ -45,6 +47,9 @@ public class Ex2 {
 				int salary = rs.getInt("SALARY");
 				
 				System.out.printf("사번 : %s / 이름 : %s / 월급 : %s ", empId, empName, salary);
+				flag = false;
+			} if(flag) {
+				System.out.println("없습니다.");
 			}
 			
 			
