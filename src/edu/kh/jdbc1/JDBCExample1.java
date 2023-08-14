@@ -84,12 +84,12 @@ public class JDBCExample1 {
 			// ** JAVA에서 작성되는 SQL은 마지막에 ; 을 찍으며 안된다!!! **
 			String sql = "SELECT EMP_ID, EMP_NAME, SALARY, HIRE_DATE FROM EMPLOYEE";
 			
-			// 4. Statment 객체 생성
+			// 4. Statement 객체 생성
 			// -> Connection 객체를 통해서 생성
 			stmt = conn.createStatement();
 			
 			
-			// 5. 생성된 Statment 객체에
+			// 5. 생성된 Statement 객체에
 			// sql을 적재하여 실행한 후
 			// 결과를 반환 받아와서
 			// rs 변수에 저장
