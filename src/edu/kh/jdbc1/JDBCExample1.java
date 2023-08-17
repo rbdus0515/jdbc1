@@ -129,7 +129,7 @@ public class JDBCExample1 {
 			
 			
 		} catch(ClassNotFoundException e) {
-			System.err.println("JDBC 드라이버 경로가 잘못 작성되었습니다.");
+			System.out.println("JDBC 드라이버 경로가 잘못 작성되었습니다.");
 		} catch(SQLException e) {
 			// SQlException : DB 관련 최상위 예외
 			e.printStackTrace();
