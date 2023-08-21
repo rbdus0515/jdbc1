@@ -53,7 +53,7 @@ public class JDBCExample4 {
 				int salary = rs.getInt("SALARY");
 				int annualIncome = rs.getInt("ANNUAL_INCOME");
 				
-				Employee employee = new Employee(empName, jobName, salary, annualIncome);
+				list.add( new Employee(empName, jobName, salary, annualIncome));
 			}
 			
 			if(list.isEmpty()) {

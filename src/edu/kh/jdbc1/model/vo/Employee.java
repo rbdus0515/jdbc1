@@ -13,14 +13,12 @@ public class Employee {
 	
 	public Employee() {}
 
-	public Employee(String empName, String jabName, int salary, int annualIncome, String hiteDate, char gamder) {
+	public Employee(String empName, String jabName, int salary, int annualIncome) {
 		super();
 		this.empName = empName;
 		this.jabName = jabName;
 		this.salary = salary;
 		this.annualIncome = annualIncome;
-		this.hireDate = hireDate;
-		this.gender = gender;
 	}
 
 	public char getGender() {
