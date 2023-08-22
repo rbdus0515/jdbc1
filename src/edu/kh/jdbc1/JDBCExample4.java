@@ -65,7 +65,6 @@ public class JDBCExample4 {
 			}
 			
 			
-			
 		} catch(Exception e) {
 			e.printStackTrace();
 		} finally {
